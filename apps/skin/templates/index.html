@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block meta_title %}{% trans "Home" %}{% endblock %}
+{% block title %}{% trans "Home" %}{% endblock %}
+
+{% block breadcrumb_menu %}
+    <li class="active">{% trans "Home" %}</li>
+{% endblock %}
+
+{% block main %}
+    {% blocktrans %}
+
+        <h2>&nbsp;</h2>
+        <p>I am a tenured <a href="http://en.wikipedia.org/wiki/Lecturer" target="_blank">Lecturer</a> in Cognitive Science, at the University of Reading, UK, affiliated to the <a href="http://www.reading.ac.uk/sse" target="_blank">Cybernetics Research Group</a> in the School of Systems Engineering and the <a href="http://www.reading.ac.uk/cinn" target="_blank">Centre for Integrative Neuroscience and Neurodynamics</a>, and part of the <a href="http://bel.reading.ac.uk" target="_blank">Brain Embodiment Laboratory</a>.</p>
+        <p>I conduct and supervise research that focuses on the mechanisms that support meaningful interaction with
+            the environment through sensorimotor coordination, in vision and touch. We use psychophysics, electrophysiology and neuroimaging methods, as well as mathematical modelling.</p>
+        <p>Do not hesitate to <a href="http://etienneroes.ch/contact">contact me</a> if you want to collaborate,
+            want to be a participant in our experiments or simply have questions. Thank you for your interest!</p>
+
+<!--        <h2>Congratulations!</h2>
+        <p>
+            Welcome to your new Mezzanine powered website.
+            Here are some quick links to get you started:
+        </p>
+        <ul>
+            <li><a href="/admin/">Log in to the admin interface</a></li>
+            <li><a href="http://mezzanine.jupo.org/docs/content-architecture.html">Creating custom page types</a></li>
+            <li><a href="http://mezzanine.jupo.org/docs/frequently-asked-questions.html#templates">Modifying HTML templates</a></li>
+            <li><a href="http://mezzanine.jupo.org/docs/frequently-asked-questions.html#why-isn-t-the-homepage-a-page-object-i-can-edit-via-the-admin">Changing this homepage</a></li>
+            <li><a href="http://mezzanine.jupo.org/docs/frequently-asked-questions.html">Other frequently asked questions</a></li>
+            <li><a href="http://mezzanine.jupo.org/docs/configuration.html#default-settings">Full list of settings</a></li>
+            <li><a href="http://mezzanine.jupo.org/docs/deployment.html">Deploying to a production server</a></li>
+        </ul>
+-->
+    {% endblocktrans %}
+{% endblock %}
