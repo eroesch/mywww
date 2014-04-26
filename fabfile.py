@@ -1,6 +1,6 @@
 from fabric.api import *
 
-prod_server = 'eroesch@web385.webfactional.com'
+prod_server = 'eroesch@eroesch.webfactional.com'
 
 
 def prod():
