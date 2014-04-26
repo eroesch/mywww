@@ -5,8 +5,8 @@ prod_server = 'eroesch@eroesch.webfactional.com'
 
 def prod():
     env.hosts = [prod_server]
-    env.remote_app_dir = '~/webapps/django/mywww'
-    env.remote_apache_dir = '~/webapps/django/apache2'
+    env.remote_app_dir = '~/webapps/mywww'
+    env.remote_apache_dir = '~/webapps/apache2'
 
 
 def commit():
@@ -26,7 +26,8 @@ def restart():
     require('hosts', provided_by=[prod])
     require('remote_apache_dir', provided_by=[prod])
 
-    run("%s/bin/restart;" % (env.remote_apache_dir))
+    #run("%s/bin/restart;" % (env.remote_apache_dir))
+    run("restart")
 
 
 def deploy():
