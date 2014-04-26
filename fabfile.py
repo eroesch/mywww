@@ -23,6 +23,7 @@ def collectstatic():
 
 def restart():
     """Restart apache on the server."""
+    print("restart")
     require('hosts', provided_by=[prod])
     require('remote_apache_dir', provided_by=[prod])
 
