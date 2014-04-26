@@ -3,6 +3,7 @@ from fabric.api import *
 prod_server = 'eroesch@eroesch.webfactional.com'
 
 
+
 def prod():
     env.hosts = [prod_server]
     env.remote_app_dir = '~/webapps/django/mywww'
