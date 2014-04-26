@@ -9,6 +9,7 @@ def prod():
     env.remote_apache_dir = '~/webapps/apache2'
 
 
+
 def commit():
     message = raw_input("Enter a git commit message:  ")
     local("git add -A && git commit -m \"%s\"" % message)
