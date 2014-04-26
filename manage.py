@@ -4,7 +4,6 @@ from __future__ import absolute_import, unicode_literals
 import os
 import sys
 
-
 # Corrects some pathing issues in various contexts, such as cron jobs,
 # and the project layout still being in Django 1.3 format.
 from settings import PROJECT_ROOT, PROJECT_DIRNAME
