@@ -94,7 +94,7 @@ MANAGERS = ADMINS
 
 # Hosts/domain names that are valid for this site; required if DEBUG is False
 # See https://docs.djangoproject.com/en/1.5/ref/settings/#allowed-hosts
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
@@ -165,15 +165,15 @@ FILE_UPLOAD_PERMISSIONS = 0o644
 DATABASES = {
     "default": {
         # Add "postgresql_psycopg2", "mysql", "sqlite3" or "oracle".
-        "ENGINE": "django.db.backends.",
+        "ENGINE": "django.db.backends.postgresql_psycopg2",
         # DB name or path to database file if using sqlite3.
-        "NAME": "",
+        "NAME": "mydb",
         # Not used with sqlite3.
-        "USER": "",
+        "USER": "mydb_user",
         # Not used with sqlite3.
-        "PASSWORD": "",
+        "PASSWORD": "Xtn4b8Xtn4b8",
         # Set to empty string for localhost. Not used with sqlite3.
-        "HOST": "",
+        "HOST": "web385.webfaction.com",
         # Set to empty string for default. Not used with sqlite3.
         "PORT": "",
     }
