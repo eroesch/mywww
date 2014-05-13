@@ -27,7 +27,7 @@ FABRIC = {
     # Default: en_US.UTF-8
     "LOCALE": "",
     # Domain where the site will be deployed
-    "LIVE_DOMAIN": "etienneroes.ch",
+    "LIVE_DOMAIN": "",
     # Subdomian where the site will be deployed
     "LIVE_SUBDOMAIN": "",
     # Git remote repo path for the project
@@ -35,14 +35,14 @@ FABRIC = {
     # Default: $HOME/webapps/git/repos/PROJECT_NAME
     "REPO_PATH": "",
     # Live database user
-    "DB_USER": "mydb_user",
+    "DB_USER": "",
     # Live database password
-    "DB_PASS": "Xtn4b8Xtn4b8",
+    "DB_PASS": "",
     # Live admin user password
-    "ADMIN_PASS": "Xtn4b8Xtn4b8",
+    "ADMIN_PASS": "",
     # Minutes between every time Twitter is polled
     # Optional, but requires mezzanine.twitter
-    "TWITTER_PERIOD": "15",
+    "TWITTER_PERIOD": "",
     # Make sure these keys are available here
     "SECRET_KEY": SECRET_KEY,
     "NEVERCACHE_KEY": NEVERCACHE_KEY,
